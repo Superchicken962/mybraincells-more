@@ -1,0 +1,116 @@
+.center {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    display: block;
+    border: 5px outset black;
+    padding: 20px 20px;
+    background-color: lightgreen;
+}
+
+.image1 {
+    text-align: center;
+    display: block;
+    border: 15px outset mediumseagreen;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    background-color: #8a2be2;
+}
+
+.jokebutton {
+    text-align: center;
+    display: block;
+    border: 5px outset gold;
+    padding: 10px 10px;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    background-color: skyblue;
+    text-decoration: none;
+}
+
+.jokebutton:hover {
+    text-align: center;
+    display: block;
+    background-color: blue;
+}
+
+.jokebutton:active {
+    text-align: center;
+    display: block;
+    padding: 8px 8px;
+    background-color: blue;
+    width: 28%;
+    height: 28%;
+}
+
+.textr1 {
+    text-align: center;
+    color: white;
+}
+
+.count {
+    text-align: center;
+    margin: auto;
+}
+
+.title2 {
+    text-align: center;
+    margin: auto;
+    background-color: lime;
+    border: 10px outset gold;
+    width: 25%;
+    color: black;
+}
+
+.backgroundcolor {
+    background-color: #8a2be2;
+}
+
+#textbox {
+border: 5px outset lime;
+background-color: lightblue;
+text-align: center;
+height: 120px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 25%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  position: relative;
+  left: 38%;
+  margin-right: -50%;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  background-color: #ab64ed;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+#showchangesbutton {
+  background-color: gold;
+}
+
+#showjokesbutton {
+  background-color: lightgreen;
+}

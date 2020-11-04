@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="brain.png">
+<body style="background-color:#8a2be2"></body>
+<title>my braincells</title>
+<div class="page">
+<head>
+<body>
+<h1 class="title">More Braincells</h1>
+<img class="image1" src="braincells.jpg"><br>
+
+<button id="showjokesbutton" type="button" class="collapsible">Discord</button>
+<div class="content">
+<div id="textbox">
+<object data="discord.txt" type="text/plain" width="500" style="height: 300px">
+</object>
+</div>
+</div>
+
+<br>
+
+<button id="showchangesbutton" type="button" class="collapsible">Steam</button>
+<div class="content">
+<div id="textbox">
+<object data="steam.txt" type="text/plain" width="500" style="height: 300px">
+</object>
+</div>
+</div>
+
+<br><br><br><br>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</div>
+</div>
+</head>
+</body>
