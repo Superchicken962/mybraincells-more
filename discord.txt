@@ -1,4 +1,4 @@
 
-Join the mybraincells discord server here: (discord invite)
+Join the mybraincells discord server here: https://discord.gg/jnvawjjJez
 
-Invite the mybraincells bot to your discord server here: (discord bot invite)
+Invite the mybraincells bot to your discord server here: https://discord.com/api/oauth2/authorize?client_id=752848644721475596&permissions=8&scope=bot
